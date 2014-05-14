@@ -1,0 +1,62 @@
+body {
+	position: relative;
+	width: 800px;
+	padding: 1em;
+	margin: 0 auto;
+	text-align: center;
+	font: normal 90% sans-serif;
+}
+dd {
+	padding: 0 0 2em 0;
+	margin: 0;
+}
+dl {
+	padding: 0;
+	margin: 0;
+}
+dt a {
+	font-size: 16px;
+}
+dl, ol, ul {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+h1 {
+	font-size: 1.75em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.25em;
+	text-align: left;
+}
+h4, h5, h6 {
+	font-size: 1em;
+}
+p {
+	line-height: 1.5;
+	text-align: left;
+}
+p.tagline {
+	text-align: center;
+}
+a.photostrip {
+	display: block;
+	text-align: center;
+}
+	a.photostrip img {
+		border-width: 1px;
+	}
+.tours li a {
+	display: block;
+}
+#webring {
+	padding: 2px;
+	border: solid 2px #c00;
+	background-color: #999;
+	font-size: 80%;
+	text-align: center;
+}
