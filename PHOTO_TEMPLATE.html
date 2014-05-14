@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>A Happy Simple HTML Page for Rusty</title>
+  <style>
+    body { color: #333; background: #fff; font-family: sans-serif; }
+    a { color: #369; }
+    figure {
+      display: block;
+      max-width: 400px;
+      margin: 0 auto 50px;
+    }
+    figcaption { display: block; }
+    img { max-width: 100%; }
+    .breadcrumbs {
+      padding: 0;
+      margin: 0 0 .5em;
+      font-size: .8em;
+      list-style: none;
+    }
+      .breadcrumbs > li {
+        display: inline;
+        padding: 0;
+        margin: 0;
+      }
+      .breadcrumbs > li + li:before {
+        content: " \\ ";
+      }
+    .notice {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Simple HTML Page &#8212; for Rusty</h1>
+  <ol class="breadcrumbs">
+    <li><a href="/">Site Home</a></li>
+    <li><a href="/level-2">Happy Simple HTML Page</a></li>
+    <li><a href="/level-2/room-b">For Rusty</a></li>
+  </ol>
+  
+  <hr>
+
+  <p class="notice">Pages loading too slowly? <a href="screw-the-fcc.html">Write an angry letter to the FCC.</a></p>
+
+  <figure>
+    <a href="FULL_RESOLUTION">
+      <img src="http://placekitten.com/400/300" alt="">
+    </a>
+    <figcaption></figcaption>
+  </figure>
+
+
+  <figure>
+    <a href="FULL_RESOLUTION">
+      <img src="http://placekitten.com/460/345" alt="Kitten 1, looking cute.">
+    </a>
+    <figcaption>This kitten is fuzzy. But also cute.</figcaption>
+  </figure>
+
+  <figure>
+    <a href="FULL_RESOLUTION">
+      <img src="http://placekitten.com/480/360" alt="Kittem 2, also cute">
+    </a>
+    <figcaption>This kitten would like to be your friend. Won't you friend the kitten?</figcaption>
+  </figure>
+
+  <figure>
+    <a href="FULL_RESOLUTION">
+      <img src="http://placekitten.com/500/375" alt="Kitten 3, does not need you.">
+    </a>
+    <figcaption>This kitten wants belly rubs. SO MANY BELLY RUBS/</figcaption>
+  </figure>
+
+  <figure>
+    <a href="FULL_RESOLUTION">
+      <img src="http://placekitten.com/520/390" alt="Indifferent kitten">
+    </a>
+    <figcaption>This kitten is not amused the the magic red dot.</figcaption>
+  </figure>
+
+</body>
+</html>
